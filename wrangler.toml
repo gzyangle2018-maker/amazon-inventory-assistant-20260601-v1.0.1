@@ -2,11 +2,11 @@ name = "amazon-stock-helper-v2"
 pages_build_output_dir = "public"
 compatibility_date = "2026-06-01"
 
-# D1 数据库绑定（请替换为新的 D1 database_id）
+# D1 数据库绑定
 [[d1_databases]]
 binding = "DB"
-database_name = "amazon_inventory_db_v2"
-database_id = "REPLACE_WITH_NEW_D1_DATABASE_ID"
+database_name = "amazon-inventory-db-v2"
+database_id = "7b7680a5-ea50-4ede-a410-89a3cde8778b"
 
 # 环境变量
 [vars]
